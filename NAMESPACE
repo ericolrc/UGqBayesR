@@ -1,0 +1,16 @@
+exportPattern("^[[:alpha:]]+")
+
+export(UGq_family)
+export(UGq_fit)
+export(UGq_diagnostics)
+
+
+S3method(summary, UGq_fit)
+S3method(print, summary.UGq_fit)
+S3method(print, UGq_diagnostics)
+
+
+import(nimble)
+import(coda)
+import(bayesplot)
+importFrom(stats, model.frame, model.matrix, model.response)

@@ -1,0 +1,19 @@
+Package: UGqBayesR
+Type: Package
+Title: Bayesian Unified UGq Regression Models via NIMBLE
+Version: 0.1.0
+Authors@R: person("Eric O Rocha", " ", email = "", role = c("aut", "cre"))
+Description: Bayesian regression models based on the Unified UGq distribution
+    for bounded data, implemented using NIMBLE.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    nimble,
+    coda,
+    bayesplot,
+    stats,
+    graphics
+Suggests:
+    testthat
+RoxygenNote: 7.3.2
