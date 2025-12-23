@@ -1,13 +1,6 @@
-# UGBayes
-
-<!-- badges: start -->
-[![R-CMD-check](https://github.com/USERNAME/UGBayes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/USERNAME/UGBayes/actions)
-[![License: GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
-<!-- badges: end -->
-
 ## Overview
 
-The **UGqBayesR** package provides tools for fitting Bayesian regression models for continuous doubly bounded responses defined on the unit interval \((0, 1)\), based on the **unit-gamma distribution**. The package supports regression structures for both the **conditional mean** and **conditional quantiles**, allowing flexible modeling of asymmetric bounded data.
+The **UGqBayesR** package provides tools for fitting Bayesian regression models for continuous doubly bounded responses defined on the unit interval \((0, 1)\), based on the **unit-gamma distribution**. The package supports regression structures for **conditional quantiles**, allowing flexible modeling of asymmetric bounded data.
 
 Bayesian inference is performed using **Markov Chain Monte Carlo (MCMC)** algorithms implemented via the **nimble** package, which offers a flexible environment for specifying and fitting hierarchical Bayesian models.
 
