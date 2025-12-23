@@ -13,10 +13,10 @@ In addition to model estimation, **UGqBayesR** includes tools for:
 
 You can install the development version from GitHub with:
 
-```r
+```{r}
 # install.packages("devtools")
 devtools::install_github("ericolrc/UGqBayesR", force = TRUE)
-
+```
 
 ## Example: Model Fitting and Convergence Diagnostics
 
@@ -27,7 +27,7 @@ In this study, the response variable is the **educational attainment index** (\(
 
 ### Load packages
 
-```r
+```{r}
 library(UGqBayesR)
 library(nimble)
 library(coda)
