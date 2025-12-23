@@ -23,7 +23,7 @@ devtools::install_github("ericolrc/UGqBayesR", force = TRUE)
 This section illustrates how to fit a Bayesian unit-gamma quantile regression model using **UGqBayesR** and how to assess the convergence of the MCMC estimates.  
 The example is based on the **Better Life Index (BLI)** dataset from **OECD countries**, as analyzed in the associated paper.
 
-In this study, the response variable is the **educational attainment index** \(y\), and the explanatory variables are **labor market insecurity (LMI)** \(x_1\) and **homicide rate (HR)** \(x_2\).
+In this study, the response variable is the **educational attainment index** $y$, and the explanatory variables are **labor market insecurity (LMI)** \(x_1\) and **homicide rate (HR)** \(x_2\).
 
 ### Load packages
 
