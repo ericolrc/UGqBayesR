@@ -51,7 +51,7 @@ x2 <- c(1,0.4,1,1.4,4.5,0.8,0.7,3.1,1.4,
 
 df <- data.frame(y, x1, x2)
 
-fam <- UGq_family(tau = 0.1)
+fam <- UGq_family(tau = 0.9)
 
 fit <- UGq_fit(
   formula.mu    = y ~ x1 + x2,
