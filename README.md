@@ -70,4 +70,5 @@ diag <- UGq_diagnostics(fit)
 diag
 
 UGq_diagnostics(fit, plot = FALSE)
-´´´
+```
+
