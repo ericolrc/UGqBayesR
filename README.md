@@ -9,6 +9,8 @@ In addition to model estimation, **UGqBayesR** includes tools for:
 - model fitting and posterior estimation via MCMC,
 - convergence assessment of the parameter estimates (trace plots, R-hat, effective sample size)
 
+For more information about the model formulation and estimation, please see: Rocha, Éric O., Nobre, J. S., Azevedo, C. L. N., Farias, R. B. A. \& Santos-Neto, M. (2025). A Bayesian Approach for Unit-Gamma Regression through Reparameterization in the Mean and Quantiles. Revista Colombiana de Estadística, 48(3), 397–431. https://doi.org/10.15446/rce.v48n3.123477
+
 ## Installation
 
 You can install the development version from GitHub with:
